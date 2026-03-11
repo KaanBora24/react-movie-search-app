@@ -1,16 +1,57 @@
-# React + Vite
+React Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple movie search application built with React and the OMDb API.
 
-Currently, two official plugins are available:
+Users can search for any movie and view its details including poster, year, genre, IMDb rating and plot.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## React Compiler
+Search movies by title
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fetch movie data from OMDb API
 
-## Expanding the ESLint configuration
+Display movie poster and details
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Error handling when movie is not found
+
+Search using button or Enter key
+
+Technologies Used
+
+React
+
+Vite
+
+JavaScript
+
+OMDb API
+
+CSS
+
+How to Run
+
+Clone the repository
+
+git clone https://github.com/KaanBora24/react-movie-search-app.git
+
+Install dependencies
+
+npm install
+
+Start the development server
+
+npm run dev
+
+Then open this address in your browser:
+
+http://localhost:5173
+
+Example
+
+Search for a movie like:
+
+Batman
+
+and the application will display the movie poster and details.
+
+This project was built as a learning project for practicing React and API integration.
