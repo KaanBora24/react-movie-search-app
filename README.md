@@ -1,4 +1,7 @@
-React Movie Search App
+# React Movie Search App
+
+Live Demo:
+https://react-movie-search-app-eight.vercel.app
 
 A simple movie search application built with React and the OMDb API.
 
